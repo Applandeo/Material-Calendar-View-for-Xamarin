@@ -1,0 +1,5 @@
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/bin/Debug/Material-Calendar-View-for-Xamarin.dll
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/bin/Debug/Material-Calendar-View-for-Xamarin.pdb
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.csproj.CoreCompileInputs.cache
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.dll
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.pdb

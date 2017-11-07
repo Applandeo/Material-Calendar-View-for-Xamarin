@@ -1,0 +1,595 @@
+<api>
+  <package name="com.applandeo.materialcalendarview">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.applandeo.materialcalendarview.BuildConfig" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.applandeo.materialcalendarview&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;debug&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.3.1&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="CalendarView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CalendarView" static="false" type="com.applandeo.materialcalendarview.CalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="attrs" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CalendarView" static="false" type="com.applandeo.materialcalendarview.CalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="attrs" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="defStyleAttr" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CalendarView" static="false" type="com.applandeo.materialcalendarview.CalendarView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="calendarProperties" type="com.applandeo.materialcalendarview.utils.CalendarProperties">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.applandeo.materialcalendarview.CalendarView" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentPageDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFirstSelectedDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="getSelectedDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDates" native="false" return="java.util.List&lt;java.util.Calendar&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="date" type="java.util.Calendar">
+        </parameter>
+        <exception name="OutOfDateRangeException" type="com.applandeo.materialcalendarview.exceptions.OutOfDateRangeException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="currentDate" type="java.util.Date">
+        </parameter>
+        <exception name="OutOfDateRangeException" type="com.applandeo.materialcalendarview.exceptions.OutOfDateRangeException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="eventDays" type="java.util.List&lt;com.applandeo.materialcalendarview.EventDay&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaximumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMinimumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDayClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onDayClickListener" type="com.applandeo.materialcalendarview.listeners.OnDayClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnForwardButtonClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="listener" type="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPreviousButtonClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="listener" type="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showCurrentMonthPage" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="CLASSIC" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MANY_DAYS_PICKER" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="ONE_DAY_PICKER" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="RANGE_PICKER" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.2" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.3" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.5" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.6" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="CalendarView..Lambda.7" static="false" visibility="">
+      <implements name="java.util.Comparator" name-generic-aware="java.util.Comparator">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compare" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object">
+        </parameter>
+        <parameter name="p1" type="java.lang.Object">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DatePicker" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DatePicker" static="false" type="com.applandeo.materialcalendarview.DatePicker" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="calendarProperties" type="com.applandeo.materialcalendarview.utils.CalendarProperties">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="com.applandeo.materialcalendarview.DatePicker" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DatePicker..Lambda.1" static="false" visibility="">
+      <implements name="com.applandeo.materialcalendarview.listeners.OnSelectionAbilityListener" name-generic-aware="com.applandeo.materialcalendarview.listeners.OnSelectionAbilityListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DatePicker..Lambda.4" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DatePicker..Lambda.5" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DatePicker..Lambda.6" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="EventDay" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="EventDay" static="false" type="com.applandeo.materialcalendarview.EventDay" visibility="public">
+        <parameter name="day" type="java.util.Calendar">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="EventDay" static="false" type="com.applandeo.materialcalendarview.EventDay" visibility="public">
+        <parameter name="day" type="java.util.Calendar">
+        </parameter>
+        <parameter name="imageResource" type="int">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCalendar" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageResource" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+  </package>
+  <package name="com.applandeo.materialcalendarview.adapters">
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.ArrayAdapter" extends-generic-aware="android.widget.ArrayAdapter&lt;java.util.Date&gt;" final="false" name="CalendarDayAdapter" static="false" visibility=""></class>
+  </package>
+  <package name="com.applandeo.materialcalendarview.builders">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CalendarBuilder" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CalendarBuilder" static="false" type="com.applandeo.materialcalendarview.builders.CalendarBuilder" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.applandeo.materialcalendarview.CalendarView" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="deprecated" final="false" name="datePicker" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="isDatePicker" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="forwardButtonSrc" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="drawable" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="headerColor" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="headerLabelColor" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="maximumDate" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="minimumDate" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="previousButtonSrc" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="drawable" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="selectionAbilityListener" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="onSelectionAbilityListener" type="com.applandeo.materialcalendarview.listeners.OnSelectionAbilityListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="selectionColor" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setType" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendarType" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="todayLabelColor" native="false" return="com.applandeo.materialcalendarview.builders.CalendarBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DatePickerBuilder" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DatePickerBuilder" static="false" type="com.applandeo.materialcalendarview.builders.DatePickerBuilder" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="onSelectDateListener" type="com.applandeo.materialcalendarview.listeners.OnSelectDateListener">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="build" native="false" return="com.applandeo.materialcalendarview.DatePicker" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="date" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dialogButtonsColor" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="forwardButtonSrc" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="drawable" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="headerColor" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="headerLabelColor" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="maximumDate" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="minimumDate" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pickerType" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="calendarType" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="previousButtonSrc" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="drawable" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="selectionColor" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="show" native="false" return="com.applandeo.materialcalendarview.DatePicker" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="todayLabelColor" native="false" return="com.applandeo.materialcalendarview.builders.DatePickerBuilder" static="false" synchronized="false" visibility="public">
+        <parameter name="color" type="int">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.applandeo.materialcalendarview.exceptions">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="OutOfDateRangeException" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="OutOfDateRangeException" static="false" type="com.applandeo.materialcalendarview.exceptions.OutOfDateRangeException" visibility="public">
+        <parameter name="message" type="java.lang.String">
+        </parameter>
+      </constructor>
+    </class>
+  </package>
+  <package name="com.applandeo.materialcalendarview.listeners">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DayRowClickListener" static="false" visibility="public">
+      <implements name="android.widget.AdapterView.OnItemClickListener" name-generic-aware="android.widget.AdapterView.OnItemClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onItemClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="adapterView" type="android.widget.AdapterView&lt;?&gt;">
+        </parameter>
+        <parameter name="view" type="android.view.View">
+        </parameter>
+        <parameter name="position" type="int">
+        </parameter>
+        <parameter name="id" type="long">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnDayClickListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onDayClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.applandeo.materialcalendarview.EventDay">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnNavigationButtonClickListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnSelectDateListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSelect" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;java.util.Calendar&gt;">
+        </parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnSelectionAbilityListener" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.applandeo.materialcalendarview.utils">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CalendarProperties" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CalendarProperties" static="false" type="com.applandeo.materialcalendarview.utils.CalendarProperties" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCalendar" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCalendarType" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCurrentDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDialogButtonsColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getEventDays" native="false" return="java.util.List&lt;com.applandeo.materialcalendarview.EventDay&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getForwardButtonSrc" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderLabelColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getItemLayoutResource" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMaximumDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMinimumDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOnDayClickListener" native="false" return="com.applandeo.materialcalendarview.listeners.OnDayClickListener" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOnForwardButtonClickListener" native="false" return="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOnPreviousButtonClickListener" native="false" return="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOnSelectDateListener" native="false" return="com.applandeo.materialcalendarview.listeners.OnSelectDateListener" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOnSelectionAbilityListener" native="false" return="com.applandeo.materialcalendarview.listeners.OnSelectionAbilityListener" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPreviousButtonSrc" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDate" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectionColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTodayLabelColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCalendar" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCalendarType" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendarType" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDialogButtonsColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="dialogButtonsColor" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEventDays" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="eventDays" type="java.util.List&lt;com.applandeo.materialcalendarview.EventDay&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setForwardButtonSrc" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="forwardButtonSrc" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHeaderColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="headerColor" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHeaderLabelColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="headerLabelColor" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItemLayoutResource" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="itemLayoutResource" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaximumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="maximumDate" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMinimumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="minimumDate" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDayClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onDayClickListener" type="com.applandeo.materialcalendarview.listeners.OnDayClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnForwardButtonClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onForwardButtonClickListener" type="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPreviousButtonClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onPreviousButtonClickListener" type="com.applandeo.materialcalendarview.listeners.OnNavigationButtonClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnSelectDateListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onSelectDateListener" type="com.applandeo.materialcalendarview.listeners.OnSelectDateListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnSelectionAbilityListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onSelectionAbilityListener" type="com.applandeo.materialcalendarview.listeners.OnSelectionAbilityListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPreviousButtonSrc" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="previousButtonSrc" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectionColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="selectionColor" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTodayLabelColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="todayLabelColor" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DateUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DateUtils" static="false" type="com.applandeo.materialcalendarview.utils.DateUtils" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCalendar" native="false" return="java.util.Calendar" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDatesRange" native="false" return="java.util.ArrayList&lt;java.util.Calendar&gt;" static="true" synchronized="false" visibility="public">
+        <parameter name="firstDay" type="java.util.Calendar">
+        </parameter>
+        <parameter name="lastDay" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMonthAndYearDate" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMonthsBetweenDates" native="false" return="int" static="true" synchronized="false" visibility="public">
+        <parameter name="startCalendar" type="java.util.Calendar">
+        </parameter>
+        <parameter name="endCalendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isMonthAfter" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+        <parameter name="firstCalendar" type="java.util.Calendar">
+        </parameter>
+        <parameter name="secondCalendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isMonthBefore" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+        <parameter name="firstCalendar" type="java.util.Calendar">
+        </parameter>
+        <parameter name="secondCalendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMidnight" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DayColorsUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DayColorsUtils" static="false" type="com.applandeo.materialcalendarview.utils.DayColorsUtils" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentMonthDayColors" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="day" type="java.util.Calendar">
+        </parameter>
+        <parameter name="today" type="java.util.Calendar">
+        </parameter>
+        <parameter name="dayLabel" type="android.widget.TextView">
+        </parameter>
+        <parameter name="todayLabelColor" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDayColors" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="textView" type="android.widget.TextView">
+        </parameter>
+        <parameter name="textColor" type="int">
+        </parameter>
+        <parameter name="typeface" type="int">
+        </parameter>
+        <parameter name="background" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedDayColors" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="dayLabel" type="android.widget.TextView">
+        </parameter>
+        <parameter name="selectionColor" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ImageUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="ImageUtils" static="false" type="com.applandeo.materialcalendarview.utils.ImageUtils" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadResource" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="imageView" type="android.widget.ImageView">
+        </parameter>
+        <parameter name="resource" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SelectedDay" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SelectedDay" static="false" type="com.applandeo.materialcalendarview.utils.SelectedDay" visibility="public">
+        <parameter name="view" type="android.view.View">
+        </parameter>
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="SelectedDay" static="false" type="com.applandeo.materialcalendarview.utils.SelectedDay" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCalendar" native="false" return="java.util.Calendar" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setView" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+  </package>
+</api>
