@@ -7,6 +7,7 @@ using MCV = Com.Applandeo.Materialcalendarview;
 using Java.Util;
 using Sample;
 using Android.Support.V7.App;
+using Com.Applandeo.Materialcalendarview.Exceptions;
 
 namespace MaterialCalendar
 {
@@ -21,14 +22,14 @@ namespace MaterialCalendar
             List<EventDay> events = new List<EventDay>();
 
             Calendar calendar = Calendar.GetInstance(new Locale("PL"));
-            events.Add(new EventDay(calendar, Resource.Drawable.sample_icon_1));
+            events.Add(new EventDay(calendar, Resource.Mipmap.Icon));
 
             Calendar calendar1 = Calendar.GetInstance(new Locale("PL"));
-            calendar1.Add(Calendar.DayOfMonth, 2);
-            events.Add(new EventDay(calendar1, Resource.Drawable.sample_icon_2));
+            calendar1.Add(CalendarField.DayOfMonth, 2);
+            events.Add(new EventDay(calendar1, Resource.Mipmap.Icon));
 
             Calendar calendar2 = Calendar.GetInstance(new Locale("PL"));
-            calendar2.Add(Calendar.DayOfMonth, 5);
+            calendar2.Add(CalendarField.DayOfMonth, 5);
             events.Add(new EventDay(calendar2, Resource.Drawable.sample_icon_3));
 
             MCV.CalendarView calendarView = (MCV.CalendarView)FindViewById(Resource.Id.calendarView);
@@ -40,10 +41,10 @@ namespace MaterialCalendar
                 Toast.MakeText(this, "PRAWO", ToastLength.Short).Show();
 
             Calendar min = Calendar.GetInstance(new Locale("PL"));
-            min.Add(Calendar.Month, -2);
+            min.Add(CalendarField.Month, -2);
 
             Calendar max = Calendar.GetInstance(new Locale("PL"));
-            max.Add(Calendar.Month, 2);
+            max.Add(CalendarField.Month, 2);
 
             calendarView.SetMinimumDate(min);
             calendarView.SetMaximumDate(max);
@@ -59,7 +60,15 @@ namespace MaterialCalendar
             Button setDateButton = (Button)FindViewById(Resource.Id.setDateButton);
             setDateButton.Click += (sender, e) => 
             {
-                calendarView.SetDate(GetRandomCalendar());
+                try
+                {
+                    calendarView.SetDate(GetRandomCalendar());
+                }
+                catch (OutOfDateRangeException exception)
+                {
+                    exception.PrintStackTrace();
+                    Toast.MakeText(this, "Date is out of range", ToastLength.Short).Show();
+                }
             };
         }
 

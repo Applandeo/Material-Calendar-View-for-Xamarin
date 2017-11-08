@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System.Linq;
+using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
@@ -19,10 +20,10 @@ namespace MaterialCalendar
             MV.CalendarView calendarView = (MV.CalendarView)FindViewById(Resource.Id.calendarView);
 
             Calendar min = Calendar.GetInstance(new Locale("PL"));
-            min.Add(Calendar.Month, -2);
+            min.Add(CalendarField.Month, -2);
 
             Calendar max = Calendar.GetInstance(new Locale("PL"));
-            max.Add(Calendar.Month, 2);
+            max.Add(CalendarField.Month, 2);
 
             calendarView.SetMinimumDate(min);
             calendarView.SetMaximumDate(max);
@@ -30,11 +31,8 @@ namespace MaterialCalendar
             Button getDateButton = (Button)FindViewById(Resource.Id.getDateButton);
             getDateButton.Click += (sender, e) =>
             {
-                foreach (Calendar calendar in calendarView.SelectedDates)
-                {
-                    Toast.MakeText(this, calendar.Time.ToString(),
-                                   ToastLength.Short).Show();
-                }
+                calendarView.SelectedDates.ToList().ForEach(d => 
+                    Toast.MakeText(this, d.Time.ToString(), ToastLength.Short).Show());
             };
         }
     }

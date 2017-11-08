@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using Com.Applandeo.Materialcalendarview;
 using Android.Widget;
 using Sample;
+using System.Linq;
 
 namespace MaterialCalendar
 {
@@ -48,10 +49,10 @@ namespace MaterialCalendar
             };
 
             Calendar min = Calendar.GetInstance(new Locale("PL"));
-            min.Add(Calendar.Month, -5);
+            min.Add(CalendarField.Month, -5);
 
             Calendar max = Calendar.GetInstance(new Locale("PL"));
-            max.Add(Calendar.Month, -3);
+            max.Add(CalendarField.Month, -3);
 
             MCVB.DatePickerBuilder oneDayBuilder = new MCVB.DatePickerBuilder(this, this)
                 .PickerType(MC.CalendarView.OneDayPicker)
@@ -114,11 +115,8 @@ namespace MaterialCalendar
 
         public void OnSelect(IList<Calendar> calendars)
         {
-            foreach (Calendar calendar in calendars)
-            {
-                Toast.MakeText(this, calendar.Time.ToString(),
-                               ToastLength.Short).Show();
-            }
+            calendars.ToList().ForEach(c => 
+               Toast.MakeText(this, c.Time.ToString(), ToastLength.Short).Show());
         }
     }
 }

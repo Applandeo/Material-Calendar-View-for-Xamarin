@@ -1,4 +1,5 @@
-﻿using Android.App;
+﻿using System.Linq;
+using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
@@ -21,11 +22,9 @@ namespace MaterialCalendar
             Button getDateButton = (Button)FindViewById(Resource.Id.getDateButton);
             getDateButton.Click += (sender, e) =>
             {
-                foreach (Calendar calendar in calendarView.SelectedDates)
-                {
-                    Toast.MakeText(this, calendar.Time.ToString(),
-                                   ToastLength.Short).Show();
-                }
+                calendarView.SelectedDates.ToList().ForEach(d =>
+                    Toast.MakeText(this, d.Time.ToString(), ToastLength.Short).Show());
+                
                 Toast.MakeText(this, calendarView.SelectedDate.Time.ToString(),
                                ToastLength.Long).Show();
             };

@@ -1,28 +1,19 @@
 ﻿<Properties StartupConfiguration="{04388069-B4C2-409D-97A7-B00FD3D88DAD}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Sample/RangePickerActivity.cs">
     <Files>
-      <File FileName="Sample/MainActivity.cs" Line="17" Column="50" />
-      <File FileName="Sample/CalendarActivity.cs" Line="14" Column="54" />
-      <File FileName="Sample/ManyDaysPickerActivity.cs" Line="12" Column="48" />
-      <File FileName="Sample/OneDayPickerActivity.cs" Line="12" Column="58" />
-      <File FileName="Sample/RangePickerActivity.cs" Line="12" Column="57" />
-      <File FileName="Sample/Properties/AndroidManifest.xml" Line="5" Column="12" />
+      <File FileName="Sample/CalendarActivity.cs" Line="25" Column="65" />
+      <File FileName="Sample/ManyDaysPickerActivity.cs" Line="24" Column="14" />
+      <File FileName="Sample/RangePickerActivity.cs" Line="25" Column="46" />
+      <File FileName="Sample/MainActivity.cs" Line="119" Column="16" NotebookId="1" />
+      <File FileName="Sample/OneDayPickerActivity.cs" Line="33" Column="14" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Material-Calendar-View-for-Xamarin" expanded="True">
-            <Node name="Sample" expanded="True">
-              <Node name="RangePickerActivity.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/CalendarActivity.cs" relfile="Sample/CalendarActivity.cs" line="65" column="1" />
+      <Breakpoint file="/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/CalendarActivity.cs" relfile="Sample/CalendarActivity.cs" line="69" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

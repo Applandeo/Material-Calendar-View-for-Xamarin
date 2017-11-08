@@ -5,6 +5,7 @@ using Android.Widget;
 using Java.Util;
 using Sample;
 using MV = Com.Applandeo.Materialcalendarview;
+using System.Linq;
 
 namespace MaterialCalendar
 {
@@ -21,11 +22,8 @@ namespace MaterialCalendar
             Button getDateButton = (Button)FindViewById(Resource.Id.getDateButton);
             getDateButton.Click += (sender, e) =>
             {
-                foreach (Calendar calendar in calendarView.SelectedDates)
-                {
-                    Toast.MakeText(this, calendar.Time.ToString(),
-                                   ToastLength.Short).Show();
-                }
+                calendarView.SelectedDates.ToList().ForEach(d => 
+                    Toast.MakeText(this, d.Time.ToString(), ToastLength.Short).Show());
                 Toast.MakeText(this, calendarView.SelectedDate.Time.ToString(), 
                                ToastLength.Long).Show();
             };

@@ -11,15 +11,15 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="ManyDaysPickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.ManyDaysPickerActivity" />
+    <activity android:label="DatePickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.OneDayPickerActivity" />
+    <activity android:label="RangePickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.RangePickerActivity" />
     <activity android:icon="@mipmap/icon" android:label="MaterialCalendar" android:name="md56c5ba5a305106ec7f749f718cd63b837.CalendarActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="ManyDaysPickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.ManyDaysPickerActivity" />
-    <activity android:label="DatePickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.OneDayPickerActivity" />
-    <activity android:label="RangePickerActivity" android:name="md56c5ba5a305106ec7f749f718cd63b837.RangePickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.applandeo.Sample.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

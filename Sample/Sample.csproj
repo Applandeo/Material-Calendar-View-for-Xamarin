@@ -90,10 +90,10 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CalendarActivity.cs" />
     <Compile Include="ManyDaysPickerActivity.cs" />
     <Compile Include="OneDayPickerActivity.cs" />
     <Compile Include="RangePickerActivity.cs" />
+    <Compile Include="CalendarActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -124,6 +124,25 @@
     <AndroidResource Include="Resources\layout\one_day_picker_activity.axml" />
     <AndroidResource Include="Resources\layout\range_picker_activity.axml" />
     <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable\sample_icon_1.png" />
+    <AndroidResource Include="Resources\drawable\sample_icon_2.png" />
+    <AndroidResource Include="Resources\drawable\sample_icon_3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sample_icon_1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sample_icon_2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sample_icon_3.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sample_icon_1.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sample_icon_2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\sample_icon_3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sample_icon_1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sample_icon_2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\sample_icon_3.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample_icon_1.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample_icon_2.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\sample_icon_3.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
