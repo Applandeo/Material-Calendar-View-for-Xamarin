@@ -21,14 +21,14 @@ namespace MaterialCalendar
 
             List<EventDay> events = new List<EventDay>();
 
-            Calendar calendar = Calendar.GetInstance(new Locale("PL"));
-            events.Add(new EventDay(calendar, Resource.Mipmap.Icon));
+            Calendar calendar = Calendar.Instance;
+            events.Add(new EventDay(calendar, Resource.Drawable.sample_icon_1));
 
-            Calendar calendar1 = Calendar.GetInstance(new Locale("PL"));
+            Calendar calendar1 = Calendar.Instance;
             calendar1.Add(CalendarField.DayOfMonth, 2);
-            events.Add(new EventDay(calendar1, Resource.Mipmap.Icon));
+            events.Add(new EventDay(calendar1, Resource.Drawable.sample_icon_2));
 
-            Calendar calendar2 = Calendar.GetInstance(new Locale("PL"));
+            Calendar calendar2 = Calendar.Instance;
             calendar2.Add(CalendarField.DayOfMonth, 5);
             events.Add(new EventDay(calendar2, Resource.Drawable.sample_icon_3));
 
@@ -40,10 +40,10 @@ namespace MaterialCalendar
             calendarView.ForwardButtonClick += (sender, e) => 
                 Toast.MakeText(this, "PRAWO", ToastLength.Short).Show();
 
-            Calendar min = Calendar.GetInstance(new Locale("PL"));
+            Calendar min = Calendar.Instance;
             min.Add(CalendarField.Month, -2);
 
-            Calendar max = Calendar.GetInstance(new Locale("PL"));
+            Calendar max = Calendar.Instance;
             max.Add(CalendarField.Month, 2);
 
             calendarView.SetMinimumDate(min);
@@ -76,7 +76,7 @@ namespace MaterialCalendar
         {
             Random random = new Random();
 
-            Calendar calendar = Calendar.GetInstance(new Locale("PL"));
+            Calendar calendar = Calendar.Instance;
             calendar.Add(CalendarField.Month, random.NextInt(99));
 
             return calendar;

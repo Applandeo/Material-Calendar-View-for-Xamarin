@@ -5,6 +5,7 @@
   </PropertyGroup>
   <!-- Classes -->
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Applandeo.Materialcalendarview.Adapters.CalendarPageAdapter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Applandeo.Materialcalendarview.BuildConfig.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Applandeo.Materialcalendarview.Builders.CalendarBuilder.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)\Com.Applandeo.Materialcalendarview.Builders.DatePickerBuilder.cs" />

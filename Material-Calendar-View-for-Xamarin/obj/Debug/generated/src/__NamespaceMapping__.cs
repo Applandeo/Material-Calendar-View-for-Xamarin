@@ -1,4 +1,5 @@
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.applandeo.materialcalendarview", Managed="Com.Applandeo.Materialcalendarview")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.applandeo.materialcalendarview.adapters", Managed="Com.Applandeo.Materialcalendarview.Adapters")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.applandeo.materialcalendarview.builders", Managed="Com.Applandeo.Materialcalendarview.Builders")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.applandeo.materialcalendarview.exceptions", Managed="Com.Applandeo.Materialcalendarview.Exceptions")]
 [assembly:global::Android.Runtime.NamespaceMapping (Java = "com.applandeo.materialcalendarview.listeners", Managed="Com.Applandeo.Materialcalendarview.Listeners")]

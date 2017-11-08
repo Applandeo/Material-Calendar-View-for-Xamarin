@@ -2,6 +2,7 @@
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Sample.pdb
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/com.applandeo.Sample.apk
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/com.applandeo.Sample-Signed.apk
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Glide.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Material-Calendar-View-for-Xamarin.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Arch.Core.Common.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -15,6 +16,7 @@
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.Core.Utils.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.Fragment.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.Media.Compat.dll
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.v4.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/bin/Debug/Material-Calendar-View-for-Xamarin.pdb
@@ -60,9 +62,9 @@
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/drawable-xxxhdpi/sample_icon_1.png
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/drawable-xxxhdpi/sample_icon_2.png
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/drawable-xxxhdpi/sample_icon_3.png
-/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/R.cs.flag
-/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/uploadflags.txt
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/mipmap-mdpi/icon.png
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/mipmap-xhdpi/icon.png
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/mipmap-xxhdpi/icon.png
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/R.cs.flag
+/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/obj/Debug/uploadflags.txt

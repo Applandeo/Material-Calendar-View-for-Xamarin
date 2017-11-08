@@ -48,10 +48,10 @@ namespace MaterialCalendar
                 StartActivity(new Intent(this, typeof(RangePickerActivity)));
             };
 
-            Calendar min = Calendar.GetInstance(new Locale("PL"));
+            Calendar min = Calendar.Instance;
             min.Add(CalendarField.Month, -5);
 
-            Calendar max = Calendar.GetInstance(new Locale("PL"));
+            Calendar max = Calendar.Instance;
             max.Add(CalendarField.Month, -3);
 
             MCVB.DatePickerBuilder oneDayBuilder = new MCVB.DatePickerBuilder(this, this)
@@ -107,7 +107,7 @@ namespace MaterialCalendar
         {
             Random random = new Random();
 
-            Calendar calendar = Calendar.GetInstance(new Locale("PL"));
+            Calendar calendar = Calendar.Instance;
             calendar.Add(CalendarField.Month, random.NextInt(99));
 
             return calendar;

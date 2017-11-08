@@ -107,7 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Sample.dll" comes first in this list. */
 		"Sample.dll",
-		"Material-Calendar-View-for-Xamarin.dll",
+		"Glide.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -120,8 +120,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Core.Utils.dll",
 		"Xamarin.Android.Support.Fragment.dll",
 		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Material-Calendar-View-for-Xamarin.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

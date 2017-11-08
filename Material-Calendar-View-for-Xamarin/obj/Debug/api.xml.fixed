@@ -104,6 +104,20 @@
         <parameter name="p1" type="java.lang.Object"></parameter>
       </method>
     </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CalendarView.1" static="false" visibility="">
+      <implements name="android.support.v4.view.ViewPager.OnPageChangeListener" name-generic-aware="android.support.v4.view.ViewPager.OnPageChangeListener"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="state" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="position" type="int"></parameter>
+        <parameter name="positionOffset" type="float"></parameter>
+        <parameter name="positionOffsetPixels" type="int"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="position" type="int"></parameter>
+      </method>
+    </class>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DatePicker" static="false" visibility="public">
       <constructor deprecated="not deprecated" final="false" name="DatePicker" static="false" type="com.applandeo.materialcalendarview.DatePicker" visibility="public">
         <parameter name="context" type="android.content.Context"></parameter>
@@ -149,6 +163,38 @@
   </package>
   <package name="com.applandeo.materialcalendarview.adapters">
     <class abstract="false" deprecated="not deprecated" extends="android.widget.ArrayAdapter" extends-generic-aware="android.widget.ArrayAdapter&lt;java.util.Date&gt;" final="false" name="CalendarDayAdapter" static="false" visibility=""></class>
+    <class abstract="false" deprecated="not deprecated" extends="android.support.v4.view.PagerAdapter" extends-generic-aware="android.support.v4.view.PagerAdapter" final="false" name="CalendarPageAdapter" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="CalendarPageAdapter" static="false" type="com.applandeo.materialcalendarview.adapters.CalendarPageAdapter" visibility="public">
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="calendarProperties" type="com.applandeo.materialcalendarview.utils.CalendarProperties"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addSelectedDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="selectedDay" type="com.applandeo.materialcalendarview.utils.SelectedDay"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCount" native="false" return="int" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDay" native="false" return="com.applandeo.materialcalendarview.utils.SelectedDay" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedDays" native="false" return="java.util.List&lt;com.applandeo.materialcalendarview.utils.SelectedDay&gt;" static="false" synchronized="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isViewFromObject" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="view" type="android.view.View"></parameter>
+        <parameter name="object" type="java.lang.Object"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEvents" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="eventDays" type="java.util.List&lt;com.applandeo.materialcalendarview.EventDay&gt;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMaximumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMinimumDate" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="calendar" type="java.util.Calendar"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnDayClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="listener" type="com.applandeo.materialcalendarview.listeners.OnDayClickListener"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedDay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="selectedDay" type="com.applandeo.materialcalendarview.utils.SelectedDay"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="CALENDAR_SIZE" static="true" transient="false" type="int" type-generic-aware="int" value="2401" visibility="public" volatile="false"></field>
+    </class>
   </package>
   <package name="com.applandeo.materialcalendarview.builders">
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CalendarBuilder" static="false" visibility="public">
@@ -242,6 +288,11 @@
   <package name="com.applandeo.materialcalendarview.listeners">
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DayRowClickListener" static="false" visibility="public">
       <implements name="android.widget.AdapterView.OnItemClickListener" name-generic-aware="android.widget.AdapterView.OnItemClickListener"></implements>
+      <constructor deprecated="not deprecated" final="false" name="DayRowClickListener" static="false" type="com.applandeo.materialcalendarview.listeners.DayRowClickListener" visibility="public">
+        <parameter name="calendarPageAdapter" type="com.applandeo.materialcalendarview.adapters.CalendarPageAdapter"></parameter>
+        <parameter name="context" type="android.content.Context"></parameter>
+        <parameter name="calendarProperties" type="com.applandeo.materialcalendarview.utils.CalendarProperties"></parameter>
+      </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="onItemClick" native="false" return="void" static="false" synchronized="false" visibility="public">
         <parameter name="adapterView" type="android.widget.AdapterView&lt;?&gt;"></parameter>
         <parameter name="view" type="android.view.View"></parameter>

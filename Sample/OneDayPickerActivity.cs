@@ -19,10 +19,10 @@ namespace MaterialCalendar
 
             MV.CalendarView calendarView = (MV.CalendarView)FindViewById(Resource.Id.calendarView);
 
-            Calendar min = Calendar.GetInstance(new Locale("PL"));
+            Calendar min = Calendar.Instance;
             min.Add(CalendarField.Month, -2);
 
-            Calendar max = Calendar.GetInstance(new Locale("PL"));
+            Calendar max = Calendar.Instance;
             max.Add(CalendarField.Month, 2);
 
             calendarView.SetMinimumDate(min);

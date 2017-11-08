@@ -1,6 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <ManifestDocuments />
+  <ManifestDocuments>
+    <ManifestDocument>obj/Debug/lp/3/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/4/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/5/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/6/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/7/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Debug/lp/8/jl/AndroidManifest.xml</ManifestDocument>
+  </ManifestDocuments>
   <NativeLibraries />
-  <Jars />
+  <Jars>
+    <Jar>obj/Debug/lp/0/jl/glide-3.7.0.jar</Jar>
+    <Jar>obj/Debug/lp/2/jl/support-annotations.jar</Jar>
+    <Jar>obj/Debug/lp/3/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/4/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/5/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/6/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/7/jl/bin/classes.jar</Jar>
+    <Jar>obj/Debug/lp/8/jl/bin/classes.jar</Jar>
+  </Jars>
 </Paths>
