@@ -20,6 +20,7 @@
     <Description>This library is binding library from native Android Material-Calendar-View (available on github)</Description>
     <Owners>Applandeo Company</Owners>
     <Title>Material Calendar View Xamarin</Title>
+    <PackageTags>Material Calendar View Xamarin</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

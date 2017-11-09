@@ -37,10 +37,10 @@ namespace MaterialCalendar
             MCV.CalendarView calendarView = (MCV.CalendarView)FindViewById(Resource.Id.calendarView);
 
             calendarView.PreviousButtonClick += (sender, e) => 
-                Toast.MakeText(this, "LEWO", ToastLength.Short).Show();
+                Toast.MakeText(this, "LEFT", ToastLength.Short).Show();
 
             calendarView.ForwardButtonClick += (sender, e) => 
-                Toast.MakeText(this, "PRAWO", ToastLength.Short).Show();
+                Toast.MakeText(this, "RIGHT", ToastLength.Short).Show();
 
             Calendar min = Calendar.Instance;
             min.Add(CalendarField.Month, -2);

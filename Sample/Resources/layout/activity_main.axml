@@ -48,10 +48,4 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Range picker (dialog)" />
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_gravity="center"
-        android:src="@drawable/sample_icon_1" />
 </LinearLayout>

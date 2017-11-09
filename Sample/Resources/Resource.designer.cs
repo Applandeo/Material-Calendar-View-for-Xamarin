@@ -2045,8 +2045,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0028
 			public const int SYM = 2131427368;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int action0 = 2131427476;
+			// aapt resource value: 0x7f0b0093
+			public const int action0 = 2131427475;
 			
 			// aapt resource value: 0x7f0b0062
 			public const int action_bar = 2131427426;
@@ -2069,17 +2069,17 @@ namespace Sample
 			// aapt resource value: 0x7f0b0040
 			public const int action_bar_title = 2131427392;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int action_container = 2131427473;
+			// aapt resource value: 0x7f0b0090
+			public const int action_container = 2131427472;
 			
 			// aapt resource value: 0x7f0b0063
 			public const int action_context_bar = 2131427427;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int action_divider = 2131427480;
+			// aapt resource value: 0x7f0b0097
+			public const int action_divider = 2131427479;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int action_image = 2131427474;
+			// aapt resource value: 0x7f0b0091
+			public const int action_image = 2131427473;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -2096,11 +2096,11 @@ namespace Sample
 			// aapt resource value: 0x7f0b0042
 			public const int action_mode_close_button = 2131427394;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int action_text = 2131427475;
+			// aapt resource value: 0x7f0b0092
+			public const int action_text = 2131427474;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int actions = 2131427489;
+			// aapt resource value: 0x7f0b00a0
+			public const int actions = 2131427488;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int activity_chooser_view_content = 2131427395;
@@ -2135,26 +2135,26 @@ namespace Sample
 			// aapt resource value: 0x7f0b0049
 			public const int buttonPanel = 2131427401;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int calendarContainer = 2131427468;
-			
 			// aapt resource value: 0x7f0b008b
-			public const int calendarGridView = 2131427467;
+			public const int calendarContainer = 2131427467;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int calendarHeader = 2131427451;
+			// aapt resource value: 0x7f0b008a
+			public const int calendarGridView = 2131427466;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int calendarView = 2131427449;
+			// aapt resource value: 0x7f0b007a
+			public const int calendarHeader = 2131427450;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int calendarViewPager = 2131427463;
+			// aapt resource value: 0x7f0b0078
+			public const int calendarView = 2131427448;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int calendar_header = 2131427455;
+			// aapt resource value: 0x7f0b0086
+			public const int calendarViewPager = 2131427462;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int cancel_action = 2131427477;
+			// aapt resource value: 0x7f0b007e
+			public const int calendar_header = 2131427454;
+			
+			// aapt resource value: 0x7f0b0094
+			public const int cancel_action = 2131427476;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int chains = 2131427383;
@@ -2162,8 +2162,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0059
 			public const int checkbox = 2131427417;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int chronometer = 2131427485;
+			// aapt resource value: 0x7f0b009c
+			public const int chronometer = 2131427484;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int classic = 2131427388;
@@ -2174,8 +2174,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b004c
 			public const int contentPanel = 2131427404;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int currentDateLabel = 2131427454;
+			// aapt resource value: 0x7f0b007d
+			public const int currentDateLabel = 2131427453;
 			
 			// aapt resource value: 0x7f0b0053
 			public const int custom = 2131427411;
@@ -2183,11 +2183,11 @@ namespace Sample
 			// aapt resource value: 0x7f0b0052
 			public const int customPanel = 2131427410;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int dayIcon = 2131427465;
-			
 			// aapt resource value: 0x7f0b0088
-			public const int dayLabel = 2131427464;
+			public const int dayIcon = 2131427464;
+			
+			// aapt resource value: 0x7f0b0087
+			public const int dayLabel = 2131427463;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int decor_content_parent = 2131427424;
@@ -2198,8 +2198,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0011
 			public const int disableHome = 2131427345;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int divider = 2131427466;
+			// aapt resource value: 0x7f0b0089
+			public const int divider = 2131427465;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int edit_query = 2131427428;
@@ -2207,8 +2207,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0021
 			public const int end = 2131427361;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int end_padder = 2131427491;
+			// aapt resource value: 0x7f0b00a2
+			public const int end_padder = 2131427490;
 			
 			// aapt resource value: 0x7f0b0044
 			public const int expand_activities_button = 2131427396;
@@ -2219,14 +2219,14 @@ namespace Sample
 			// aapt resource value: 0x7f0b003a
 			public const int forever = 2131427386;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int forwardButton = 2131427453;
+			// aapt resource value: 0x7f0b007c
+			public const int forwardButton = 2131427452;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int fridayLabel = 2131427460;
+			// aapt resource value: 0x7f0b0083
+			public const int fridayLabel = 2131427459;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int getDateButton = 2131427472;
+			// aapt resource value: 0x7f0b008f
+			public const int getDateButton = 2131427471;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
@@ -2237,8 +2237,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0048
 			public const int icon = 2131427400;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int icon_group = 2131427490;
+			// aapt resource value: 0x7f0b00a1
+			public const int icon_group = 2131427489;
 			
 			// aapt resource value: 0x7f0b002b
 			public const int ifRoom = 2131427371;
@@ -2246,11 +2246,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0045
 			public const int image = 2131427397;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int imageView1 = 2131427448;
-			
-			// aapt resource value: 0x7f0b009e
-			public const int info = 2131427486;
+			// aapt resource value: 0x7f0b009d
+			public const int info = 2131427485;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int italic = 2131427387;
@@ -2270,23 +2267,23 @@ namespace Sample
 			// aapt resource value: 0x7f0b003d
 			public const int many_days_picker = 2131427389;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int media_actions = 2131427479;
+			// aapt resource value: 0x7f0b0096
+			public const int media_actions = 2131427478;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int message = 2131427492;
+			// aapt resource value: 0x7f0b00a3
+			public const int message = 2131427491;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int middle = 2131427362;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int mondayLabel = 2131427456;
+			// aapt resource value: 0x7f0b007f
+			public const int mondayLabel = 2131427455;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int multiply = 2131427352;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int negative_button = 2131427471;
+			// aapt resource value: 0x7f0b008e
+			public const int negative_button = 2131427470;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int never = 2131427372;
@@ -2297,14 +2294,14 @@ namespace Sample
 			// aapt resource value: 0x7f0b000f
 			public const int normal = 2131427343;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int notification_background = 2131427488;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int notification_main_column = 2131427482;
+			// aapt resource value: 0x7f0b009f
+			public const int notification_background = 2131427487;
 			
 			// aapt resource value: 0x7f0b0099
-			public const int notification_main_column_container = 2131427481;
+			public const int notification_main_column = 2131427481;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int notification_main_column_container = 2131427480;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int one_day_picker = 2131427390;
@@ -2339,11 +2336,11 @@ namespace Sample
 			// aapt resource value: 0x7f0b004b
 			public const int parentPanel = 2131427403;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int positive_button = 2131427470;
+			// aapt resource value: 0x7f0b008d
+			public const int positive_button = 2131427469;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int previousButton = 2131427452;
+			// aapt resource value: 0x7f0b007b
+			public const int previousButton = 2131427451;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -2357,14 +2354,14 @@ namespace Sample
 			// aapt resource value: 0x7f0b003f
 			public const int range_picker = 2131427391;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int right_icon = 2131427487;
+			// aapt resource value: 0x7f0b009e
+			public const int right_icon = 2131427486;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int right_side = 2131427483;
+			// aapt resource value: 0x7f0b009a
+			public const int right_side = 2131427482;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int saturdayLabel = 2131427461;
+			// aapt resource value: 0x7f0b0084
+			public const int saturdayLabel = 2131427460;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int screen = 2131427353;
@@ -2411,8 +2408,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0070
 			public const int select_dialog_listview = 2131427440;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int setDateButton = 2131427450;
+			// aapt resource value: 0x7f0b0079
+			public const int setDateButton = 2131427449;
 			
 			// aapt resource value: 0x7f0b005a
 			public const int shortcut = 2131427418;
@@ -2447,8 +2444,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b001c
 			public const int src_over = 2131427356;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int status_bar_latest_event_content = 2131427478;
+			// aapt resource value: 0x7f0b0095
+			public const int status_bar_latest_event_content = 2131427477;
 			
 			// aapt resource value: 0x7f0b005c
 			public const int submenuarrow = 2131427420;
@@ -2456,8 +2453,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b006d
 			public const int submit_area = 2131427437;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int sundayLabel = 2131427462;
+			// aapt resource value: 0x7f0b0085
+			public const int sundayLabel = 2131427461;
 			
 			// aapt resource value: 0x7f0b0010
 			public const int tabMode = 2131427344;
@@ -2474,11 +2471,11 @@ namespace Sample
 			// aapt resource value: 0x7f0b004f
 			public const int textSpacerNoTitle = 2131427407;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int thursdayLabel = 2131427459;
+			// aapt resource value: 0x7f0b0082
+			public const int thursdayLabel = 2131427458;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int time = 2131427484;
+			// aapt resource value: 0x7f0b009b
+			public const int time = 2131427483;
 			
 			// aapt resource value: 0x7f0b000d
 			public const int title = 2131427341;
@@ -2489,8 +2486,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0055
 			public const int title_template = 2131427413;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int today_button = 2131427469;
+			// aapt resource value: 0x7f0b008c
+			public const int today_button = 2131427468;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int top = 2131427375;
@@ -2498,8 +2495,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0054
 			public const int topPanel = 2131427412;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int tuesdayLabel = 2131427457;
+			// aapt resource value: 0x7f0b0080
+			public const int tuesdayLabel = 2131427456;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int uniform = 2131427358;
@@ -2510,8 +2507,8 @@ namespace Sample
 			// aapt resource value: 0x7f0b0017
 			public const int useLogo = 2131427351;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int wednesdayLabel = 2131427458;
+			// aapt resource value: 0x7f0b0081
+			public const int wednesdayLabel = 2131427457;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int withText = 2131427373;
