@@ -8,6 +8,7 @@ using Java.Util;
 using Sample;
 using Android.Support.V7.App;
 using Com.Applandeo.Materialcalendarview.Exceptions;
+using MaterialCalendarView;
 
 namespace MaterialCalendar
 {
@@ -21,16 +22,17 @@ namespace MaterialCalendar
 
             List<EventDay> events = new List<EventDay>();
 
-            Calendar calendar = Calendar.Instance;
-            events.Add(new EventDay(calendar, Resource.Drawable.sample_icon_1));
+            Calendar calendarToday = Calendar.Instance;
+            events.Add(new EventDay(calendarToday, Resource.Drawable.sample_icon_1));
 
-            Calendar calendar1 = Calendar.Instance;
-            calendar1.Add(CalendarField.DayOfMonth, 2);
-            events.Add(new EventDay(calendar1, Resource.Drawable.sample_icon_2));
+            Calendar calendarTwoDaysFromToday = Calendar.Instance;
+            calendarTwoDaysFromToday.Add(CalendarField.DayOfMonth, 2);
+            events.Add(new EventDay(calendarTwoDaysFromToday, Resource.Drawable.sample_icon_2));
 
-            Calendar calendar2 = Calendar.Instance;
-            calendar2.Add(CalendarField.DayOfMonth, 5);
-            events.Add(new EventDay(calendar2, Resource.Drawable.sample_icon_3));
+            calendarToday.ToDateTime();
+            Calendar calendarFiveDaysFromToday = Calendar.Instance;
+            calendarFiveDaysFromToday.Add(CalendarField.DayOfMonth, 5);
+            events.Add(new EventDay(calendarFiveDaysFromToday, Resource.Drawable.sample_icon_3));
 
             MCV.CalendarView calendarView = (MCV.CalendarView)FindViewById(Resource.Id.calendarView);
 

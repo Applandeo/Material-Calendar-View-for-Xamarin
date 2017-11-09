@@ -1,7 +1,7 @@
 ﻿using System;
 using Java.Util;
 
-namespace MaterialCalendarViewforXamarin
+namespace MaterialCalendarView
 {
     public static class Extensions
     {
