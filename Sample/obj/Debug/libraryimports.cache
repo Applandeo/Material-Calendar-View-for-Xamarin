@@ -2,23 +2,17 @@
 <Paths>
   <ManifestDocuments>
     <ManifestDocument>obj/Debug/__library_projects__/Material-Calendar-View-for-Xamarin/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Material-Calendar-View-for-Xamarin/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Arch.Lifecycle.Runtime/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Animated.Vector.Drawable/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Compat/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Compat/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Constraint.Layout/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Constraint.Layout/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Core.UI/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Core.Utils/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Fragment/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Media.Compat/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Media.Compat/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.Vector.Drawable/library_project_imports/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj/Debug/__library_projects__/Xamarin.Android.Support.v7.AppCompat/library_project_imports/manifest/AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>

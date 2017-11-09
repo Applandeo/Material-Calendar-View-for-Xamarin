@@ -8,7 +8,6 @@
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/bin/Debug/Xamarin.Android.Support.Fragment.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/bin/Debug/Xamarin.Android.Support.Media.Compat.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/bin/Debug/Xamarin.Android.Support.v4.dll
-/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.csprojResolveAssemblyReference.cache
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.csproj.CoreCompileInputs.cache
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.dll
 /Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Material-Calendar-View-for-Xamarin/obj/Debug/Material-Calendar-View-for-Xamarin.pdb

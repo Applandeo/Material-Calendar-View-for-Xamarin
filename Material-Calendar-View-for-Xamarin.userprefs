@@ -1,20 +1,16 @@
 ﻿<Properties StartupConfiguration="{04388069-B4C2-409D-97A7-B00FD3D88DAD}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Sample/CalendarActivity.cs">
     <Files>
-      <File FileName="Sample/CalendarActivity.cs" Line="25" Column="70" />
-      <File FileName="Sample/MainActivity.cs" Line="119" Column="16" NotebookId="1" />
+      <File FileName="Sample/CalendarActivity.cs" Line="39" Column="13" />
+      <File FileName="Sample/MainActivity.cs" Line="123" Column="1" NotebookId="1" />
       <File FileName="Sample/OneDayPickerActivity.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/CalendarActivity.cs" relfile="Sample/CalendarActivity.cs" line="65" column="1" />
-      <Breakpoint file="/Users/pawlomelnyk/Material-Calendar-View-for-Xamarin/Sample/CalendarActivity.cs" relfile="Sample/CalendarActivity.cs" line="69" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Material-Calendar-View-for-Xamarin PreferredExecutionTarget="Android.CB5A249RQZ" />
   <MonoDevelop.Ide.ItemProperties.Sample AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.CB5A249RQZ" AndroidDesignerPreferredTheme="AppTheme" />
 </Properties>
