@@ -2,13 +2,13 @@
 using Android.App;
 using Android.OS;
 using Android.Widget;
-using Com.Applandeo.Materialcalendarview;
 using MCV = Com.Applandeo.Materialcalendarview;
 using Java.Util;
 using Sample;
 using Android.Support.V7.App;
 using Com.Applandeo.Materialcalendarview.Exceptions;
 using MaterialCalendarView;
+using Com.Applandeo.Materialcalendarview;
 
 namespace MaterialCalendar
 {
