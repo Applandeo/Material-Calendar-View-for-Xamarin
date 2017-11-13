@@ -6,7 +6,7 @@ Material-Calendar-View for Xamarin.Android is a ported library of Material-Calen
 
 We described a simple usage of the component [in this article](http://applandeo.com/blog/material-calendar-view-customized-calendar-widget-android/).
 
-YMaterial-Calendar-View for Xamarin.Android is also available on NuGet and it can be downlowder [from this link](https://www.nuget.org/packages/Material.Calendar.View.Xamarin/)
+Material-Calendar-View for Xamarin.Android is also available on NuGet and it can be downlowder [from this link](https://www.nuget.org/packages/Material.Calendar.View.Xamarin/)
 
 ## License
 ```
